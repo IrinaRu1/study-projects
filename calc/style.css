@@ -1,0 +1,166 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: "Graduate", serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    user-select: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 40px;
+    padding: 40px;
+
+    background-color: #f8c193;
+}
+
+.calc{
+    width: 600px;
+    aspect-ratio: 1 / 2;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+
+    border-radius: 55px;
+    background-color: #D8CABE;
+
+}
+
+.stripes{
+    display: flex;
+}
+
+.strip{
+    width: 1.2rem;
+    height: 6.5rem;
+}
+
+.red-strip{
+    margin: 0 .15rem 0 1.5rem;
+
+    background-color: #ff5252;
+}
+
+.yellow-strip{
+    margin: 0 .15rem;
+
+    background-color: #ffb00b;
+}
+
+.blue-strip{
+    margin: 0 .15rem;
+
+    background-color: #3b6491;
+}
+
+.screen{
+    height: 18%;
+    margin-bottom: 10rem;
+    padding: 1rem;
+
+    border: 12px solid black;
+    border-radius: 15px;
+    background-color: #92866a;
+    box-shadow: 0 10px 5px #585651 inset;
+
+}
+
+.screen-text{
+    margin: 0;
+
+    font-size: 5rem;
+    color: #000;
+    text-align: end;
+    text-shadow: 0 -2px #464646;
+}
+
+.mini-text{
+    margin: 0;
+
+    font-size: 2rem;
+    color: #585651;
+    text-align: end;
+    text-shadow: 0 -2px #7e7e7e;
+}
+
+.keyboard{
+    height: 55%;
+    padding: 1.6rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+
+    background-color: #c5b8ac;
+    border-radius: 15px;
+}
+
+.btn{
+    width: calc(25% - 1.6rem);
+    height: calc(20% - 1.6rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2.7rem;
+    text-decoration: none;
+
+    border: 1rem solid;
+    border-bottom-width: 1.2rem;
+    border-right-width: 1.2rem;
+    border-radius: 20px;
+    box-shadow: 4px 7px 3px #818080;
+
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px 20px inset rgb(100 50 0 / 10%);
+}
+
+.btn-red{
+    background-color: #ff6652;
+    color: #fff;
+    font-weight: 500;
+
+    border-color: #c44019;
+
+}
+
+.btn-orange{
+    background-color: #f8c193;
+    color: #fff;
+
+    border-color: #fdac5b;
+}
+
+.btn-white{
+    background-color: #faf3f3;
+    color: #d8611b;
+    font-weight: 600;
+
+    border-color: #ebdfd4;
+}
+
+.btn-blue{
+    background-color: #9cb5d0;
+    color: #fff;
+
+    border-color: #75889d;
+}
+
+.big{
+    width: 46%;
+}
+
+
