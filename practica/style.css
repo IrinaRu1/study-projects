@@ -1,0 +1,68 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    margin: 0;
+
+    font-family: "Sedan", serif;
+    font-size: 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 6rem;
+
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    background-color: #38383b;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.col {
+    text-align: center;
+}
+
+.text1{
+    margin-top: 3rem;
+    margin-bottom: 0;
+
+    color: #a75f3e;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.text2{
+    margin-bottom: 4rem;
+    
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
