@@ -28,12 +28,6 @@ body {
     justify-content: space-around;
 }
 
-.p {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .col {
     text-align: center;
 }
