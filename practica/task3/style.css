@@ -1,0 +1,123 @@
+html {
+    font-size: 15px;
+}
+
+body {
+       font-family: "Arial", serif;
+       background-color: #c2bdbd;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.box {
+    margin: 0 auto;
+    padding: 2rem 8rem;
+
+    text-align: center;
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.picture {
+    color: rgb(3, 150, 248);
+}
+.pic {
+    width: 15rem;
+    height: 15rem;
+
+}
+.text {
+    max-width: 450px;
+    
+    text-align:justify;
+    color: #646363;
+    text-shadow: -0 0 2px #868686;
+}
+
+.ptext {
+    color: #7e7c7c;
+    line-height: 2;
+    font-weight: 200;
+    letter-spacing: 1px;
+   
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.circle1{
+    width: 4.33rem;
+    height: 4.33rem;
+    align-items: center;
+
+    
+    border-radius: 50%;
+    background-color: #53daa6;
+    display: flex;
+    justify-content: center;
+}
+
+.circle2{
+    width: 4.33rem;
+    height: 4.33rem;
+    
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid #53daa6;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.circle1:hover, .circle2:hover{
+    box-shadow: 0 0 20px 20px inset rgba(2, 202, 159, 0.5);
+}
+
+.pic1,
+.pic2 {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.pic1{
+    color: #fff;
+}
+
+.pic2{
+    color: #53daa6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
